@@ -2,27 +2,28 @@
     margin: 0;
     padding: 0;
 }
-header{
+
+#header1, #header2{
     display: flex;
     justify-content: space-between;
     padding: 0px 30px;
     margin: 20px;
-    font-size: 24px;
+    align-items: center;
 }
 
-ul{
+
+
+.nav {
     display: flex;
     gap: 40px;
     align-items: center;
+    font-size: 18px;
+    padding: 14px;
 }
 
 h1 {
     color: rgb(218, 45, 218);
-}
-
-li{
-    list-style: none;
-    text-decoration: none;
+    font-size: 32px;
 }
 
 a{
