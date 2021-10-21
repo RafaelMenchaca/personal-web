@@ -3,9 +3,9 @@
     padding: 0;
 }
 
-#header1, #header2{
+#header1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0px 30px;
     margin: 20px;
     align-items: center;
@@ -28,4 +28,17 @@ h1 {
 
 a{
     text-decoration: none;
+}
+
+#initial-content{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 30px;
+    margin: 20px;
+    align-items: center;
+    
+}
+
+#imagen-principal{
+    width: 20%;
 }
